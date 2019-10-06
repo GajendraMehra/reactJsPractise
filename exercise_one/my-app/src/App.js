@@ -7,6 +7,7 @@ import Message from './components/Message'
 import Counter   from './components/Counter'
 import FunctionClick from './components/FuntionClick'
 import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
 function App() {
   return (
     <div className="">
@@ -29,6 +30,8 @@ function App() {
        <FunctionClick></FunctionClick>
        <h5 className="App-link">Event Handling</h5>
        <ClassClick></ClassClick>
+       <h5 className="App-link">Event Bind</h5>
+       <EventBind></EventBind>
       </header>
      
     </div>
