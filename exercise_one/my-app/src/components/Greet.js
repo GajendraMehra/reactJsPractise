@@ -8,10 +8,15 @@ import React from "react";
 //     )
 // }
 
-const Greet =  (props)=> {
-   console.log(props);
+const Greet =  ({name,age})=> {
+   // console.log(props);
    
-return  <p>Hello from Functional Component</p>
+return  (
+   <div>
+   <p> {name} age is {age}</p>
+   
+   </div>
+)
 }
 
 
