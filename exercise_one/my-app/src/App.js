@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h4>Hello From App.js</h4>
-        <Greet></Greet>
-        <Welcome></Welcome>
+        <Greet name="demoname"></Greet>
+        <Welcome name="appprops"></Welcome>
         <Hello></Hello>
       </header>
      
