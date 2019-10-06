@@ -9,6 +9,7 @@ import FunctionClick from './components/FuntionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 function App() {
   return (
     <div className="">
@@ -35,6 +36,8 @@ function App() {
        <EventBind></EventBind>
        <h5 className="App-link">Event Bind</h5>
        <ParentComponent></ParentComponent>
+       <h5 className="App-link">User Greeting</h5>
+       <UserGreeting></UserGreeting>
       </header>
      
     </div>
