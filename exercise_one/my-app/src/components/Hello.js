@@ -5,12 +5,12 @@ export default function Hello() {
     // With Jx
     // return (
     //     <div>
-    //         <h1>Hello from jsx demo</h1>
+    //         <p>Hello from jsx demo</p>
     //     </div>
     // )
 
     // Without jx
-    return React.createElement('h1', {
+    return React.createElement('p', {
         className: 'dummyClass'
     }, 'Hello from without jsx')
 }
