@@ -8,6 +8,7 @@ import Counter   from './components/Counter'
 import FunctionClick from './components/FuntionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
 function App() {
   return (
     <div className="">
@@ -32,6 +33,8 @@ function App() {
        <ClassClick></ClassClick>
        <h5 className="App-link">Event Bind</h5>
        <EventBind></EventBind>
+       <h5 className="App-link">Event Bind</h5>
+       <ParentComponent></ParentComponent>
       </header>
      
     </div>

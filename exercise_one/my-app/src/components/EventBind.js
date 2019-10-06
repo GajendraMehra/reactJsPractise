@@ -34,7 +34,7 @@ class EventBind extends Component {
               <Button  onClick={()=>this.handleClick()} variant="contained" color="primary">
                Event Bind approach 2
               </Button>
-              <Button  onClick={this.makeHello} variant="contained" color="primary">
+              <Button  onClick={this.makeHello} variant="contained" color="secondary">
               Say Hello approach 3 Perfect
              </Button>
              <Button  onClick={this.sayBye} variant="contained" color="primary">
