@@ -10,6 +10,8 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+import CartoonComponent from './components/CartoonComponent'
+// import UserGreeting from './components/UserGreeting'
 function App() {
   return (
     <div className="">
@@ -38,6 +40,9 @@ function App() {
        <ParentComponent></ParentComponent>
        <h5 className="App-link">User Greeting</h5>
        <UserGreeting></UserGreeting>
+       <h5 className="App-link">Rendering List</h5>
+
+       <CartoonComponent></CartoonComponent>
       </header>
      
     </div>
