@@ -10,6 +10,7 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+import Form from './components/Form'
 import CartoonComponent from './components/CartoonComponent'
 // import UserGreeting from './components/UserGreeting'
 function App() {
@@ -43,8 +44,13 @@ function App() {
        <h5 className="App-link">Rendering List</h5>
 
        <CartoonComponent></CartoonComponent>
-      </header>
+       <h5 className="App-link">Form Demo</h5>
+
+     <div className="white-wrapper">
+     <Form></Form>
      
+     </div>
+      </header>
     </div>
   );
 }
