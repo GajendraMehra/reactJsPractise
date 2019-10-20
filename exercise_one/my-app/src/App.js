@@ -12,6 +12,7 @@ import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import Form from './components/Form'
 import CartoonComponent from './components/CartoonComponent'
+import FragmentDemo from './components/FragmentDemo'
 // import UserGreeting from './components/UserGreeting'
 function App() {
   return (
@@ -44,9 +45,11 @@ function App() {
        <h5 className="App-link">Rendering List</h5>
 
        <CartoonComponent></CartoonComponent>
-       <h5 className="App-link">Form Demo</h5>
+       <h5 className="App-link">Fragment Demo</h5>
+       <FragmentDemo></FragmentDemo> 
 
-     <div className="white-wrapper">
+       <h5 className="App-link">Form Demo</h5>
+        <div className="white-wrapper">
      <Form></Form>
      
      </div>
